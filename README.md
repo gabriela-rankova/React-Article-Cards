@@ -14,6 +14,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `yarn server`
+
+Runs the json server \
+Open [http://localhost:3001/data](http://localhost:3001/data) to view it in the browser.
+
+### `yarn dev`
+
+Runs the app and the json server in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+Open [http://localhost:3001/data](http://localhost:3001/data) to view the data in the browser.
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
