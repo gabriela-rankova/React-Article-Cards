@@ -1,4 +1,5 @@
 import "../../styles/card.css";
+
 const Card = ({ record }) => {
   return (
     <div className="card">
@@ -8,9 +9,9 @@ const Card = ({ record }) => {
           style={{ backgroundImage: `url(${record.image})` }}
         ></div>
       </div>
-      <div>
-        <h1>{record.title}</h1>
-        {record.content}
+      <div className="card-content">
+        <h1 className="card-article-title">{record.title}</h1>
+        <div className="card-article-content">{record.content}</div>
       </div>
     </div>
   );

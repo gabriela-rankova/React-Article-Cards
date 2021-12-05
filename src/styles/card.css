@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .card-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -31,6 +31,13 @@
   padding-bottom: 20px;
   font-size: 30px;
 }
+
+@media only screen and (max-width: 992px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
 .card-header {
   height: 300px;
   max-height: 100%;
@@ -46,4 +53,34 @@
   background-size: cover;
   min-height: 100%;
   min-width: 100%;
+}
+
+.card-content {
+  padding: 0 1.5rem;
+}
+
+.card-article-title {
+  font-size: 24px;
+  text-align: left;
+  color: #333333;
+  transition: color 0.5s;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.card-article-title:hover {
+  color: #8a8a8a;
+  cursor: pointer;
+}
+
+.card-article-content {
+  font-size: 18px;
+  text-align: left;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }

@@ -2,24 +2,24 @@
   "articles": [
     {
       "id": "1",
-      "title": "lorem impsum",
-      "content": "lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum ",
-      "image": "https://ggsc.s3.amazonaws.com/images/made/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner_300_200_int_c1-1x.jpg",
-      "category": "Test"
+      "title": "'West Side Story' reimagines the original in Steven Spielberg's vibrant showcase for its stars",
+      "content": "The new 'West Side Story' doesn't entirely answer the most obvious question, which is why essentially remake a 60-year-old classic. Director Steven Spielberg nevertheless justifies the effort as a dazzling showcase for this generation's talent, in a film whose ties to lyricist Stephen Sondheim, who died last month, adds to its emotional resonance.Adapted by playwright Tony Kushner, the film -- described as a 'reimagining' of the original -- possesses a grittier edge, directly connecting gentrification of New York's slums in the 1950s to the two gangs battling over their shrinking turf as if their lives depend on it. The casting and subtle touches, like not subtitling the Spanish dialogue, also possess considerably more cultural authenticity than a period where non-Latinx actors would be cast in pivotal roles.",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/210622123457-01-rachel-zegler-wss-exlarge-169.jpg",
+      "category": "Entertainment"
     },
     {
       "id": "2",
-      "title": "lorem impsum",
-      "content": "lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum ",
-      "image": "https://ggsc.s3.amazonaws.com/images/made/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner_300_200_int_c1-1x.jpg",
-      "category": "Test"
+      "title": "Confetti Salad: Radish and Beet Salad With Feta",
+      "content": "This salad is all about mixing a variety of winter root vegetables and fruits, shaved and cut into thin batons, for a fresh, healthy, crunchy lunch entrée. The ingredients list is a suggestion, more so for a variety of colors. You can make a big bowl of it and eat it over a few days as well, but it will not be as crisp as when it is first dressed.",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/211203014318-duplicate-for-recipe-steven-satterfield-restricted-exlarge-169.jpeg",
+      "category": "Health"
     },
     {
       "id": "3",
-      "title": "lorem impsum",
-      "content": "lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum ",
-      "image": "https://ggsc.s3.amazonaws.com/images/made/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner_300_200_int_c1-1x.jpg",
-      "category": "Test"
+      "title": "'I've never seen anything like that': Bizarre goal marks thrilling Manchester United and Arsenal clash",
+      "content": "Manchester United bounced back from conceding one of the most unusual goals you're ever likely to see to eventually beat Arsenal 3-2 in Thursday's Premier League clash. With new interim head coach Ralf Rangnick set to be in the dugout for Sunday's match against Crystal Palace, United's final match under Michael Carrick got off to the worst -- and strangest -- possible start. With less than 15 minutes gone, United goalkeeper David de Gea went down injured as the team defended an Arsenal corner.",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/211203102209-dea-gea-arsenal-exlarge-169.jpg",
+      "category": "Sport"
     }
   ]
 }
