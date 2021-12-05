@@ -1,9 +1,8 @@
 .card-container {
   display: grid;
-  background-color: #f2f2f2;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -28,8 +27,11 @@
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 10px 31px 0 hsl(0deg 0% 45% / 9%);
   text-align: center;
-  padding-bottom: 20px;
   font-size: 30px;
+  transition: transform 0.5s ease-out;
+}
+.card:hover {
+  transform: translate(0%, -10px);
 }
 
 @media only screen and (max-width: 992px) {
@@ -77,10 +79,23 @@
 .card-article-content {
   font-size: 18px;
   text-align: left;
+  margin-bottom: 20px;
+  color: #5c5c5c;
   overflow-wrap: anywhere;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+.card-article-category {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  margin: 15px 0;
+  padding: 0 5px;
+  color: #9c9c9c;
+  border-left: 3px solid #3484e0;
+  text-transform: uppercase;
 }
